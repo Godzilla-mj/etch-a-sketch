@@ -1,0 +1,22 @@
+
+
+div#container{
+	margin-bottom: 0;
+}
+
+#container {
+	display: grid;
+	grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+	margin: 100px auto;
+	width: 600px;
+	height: 600px;
+	border: 2px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+}
+
+.box {
+	background-color: black;
+	opacity: 0;
+}
