@@ -10,11 +10,12 @@
 	<h1>Etch-A-Sketch</h1>
 	<div id="container"></div>
 	<nav>
-		<input type="number" name="number" id="number" min="1" max="64" value="4" />
-		<button id="board">Create</button>
-		<button id="reset">Reset</button>
-		<button id="random" onclick="toggleDisplay()" value = "Random OFF">Random</button>
-		<input id="colorness" type="color">
+		<ul>
+			<li><input type="number" name="number" id="number" min="1" max="64" value="4" /></li>
+			<li><button id="board">Create</button></li>
+			<li><button id="reset">Reset</button></li>
+			<li><button id="random" onclick="toggleDisplay()">Random</button></li>
+			<li><input id="colorness" type="color"></li>
 	</nav>
 	<div id="toggle ON"></div>
 	<script src = "script.js"></script>
